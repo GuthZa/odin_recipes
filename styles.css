@@ -1,0 +1,28 @@
+* {
+    background-color: snow;
+    font-family: Verdana, "Times New Roman", sans-serif;
+}
+
+.emphasis {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: auto;
+    width: 240px;
+    margin-left: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.home {
+    font-weight: bold;
+    font-size: 18px;
+}
