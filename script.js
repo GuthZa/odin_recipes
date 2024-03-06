@@ -25,6 +25,6 @@ document.body.appendChild(div);
 const buttons = document.querySelectorAll("button");
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
-    alert(button.id);
+    console.log(button.id);
   });
 });
