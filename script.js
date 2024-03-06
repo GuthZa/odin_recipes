@@ -21,3 +21,10 @@ document.body.appendChild(headThree);
 div.appendChild(h1);
 div.appendChild(paraTwo);
 document.body.appendChild(div);
+
+const buttons = document.querySelectorAll("button");
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    alert(button.id);
+  });
+});
